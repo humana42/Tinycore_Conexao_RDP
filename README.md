@@ -9,9 +9,11 @@ Faça download de uma imagem e coloque no repositorio `/usr/local/share/pixmaps/
 
 # Configuração RDP
 
-Faça o download do arquivo `remote.sh` e copie para o diretorio `/home/tc`
+Faça o download do arquivo `remote.sh` e copie para o diretorio `/home/tc` forneça ao arquivo permissão de execução
 
-Faça o download do arquivo `menu` e copie para o diretorio `/home/tc/.X.d/`
+Edite o arquivo `remote.sh`adicionando o endereço da conexão em <servidor> e o dominio em <dominio>
+
+Faça o download do arquivo `menu` e copie para o diretorio `/home/tc/.X.d/` forneça ao arquivo permissão de execução
 
 Edite o arquivo `menu` adicione o nome da imagem que foi feita o download no campo `<imagem.png>` e adicione o nome para o atalho da conexão remota no campo `<remoto>`
 
